@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitation Template</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="logo">
+          <img src="assets/images/officetour_logo.png" alt="" />
+        </div>
+        <div class="email-container">
+          <h2 class="title-heading">Your tour has been booked</h2>
+          <div>
+            <p class="primary-text">
+              Thanks for booking tour on officetour. Your tour has been booked
+              successfully. Here are the tour details.
+            </p>
+          </div>
+          <ul>
+            <li>Broker Name: {{brokerName}}</li>
+            <li>Broker Email: {{brokerEmail}}</li>
+            <li>Broker Organization: {{companyName}}</li>
+            <li>Property Address : {{address}}</li>
+            <li>Tenant Name: {{tenantName}}</li>
+            <li>Tenant Email: {{tenantEmail}}</li>
+            <li>Tenant Phone: {{tenantPhone}}</li>
+            <li>Use the following link for the tour</li>
+            <li>Meeting Link: {{meetingLink}}</li>
+          </ul>
+          <div class="thankyou">
+            <p class="text-secondary">Thank You</p>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-container">
+          <p>
+            <a href="#" class="decoration-none text-secondary p-2"
+              >officetour.com</a
+            >
+          </p>
+          <p class="email-us-link">
+            <span class="p-2">Need support?</span
+            ><a href="#" class="decoration-none text-secondary">Contact us</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

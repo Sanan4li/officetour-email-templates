@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/*===== General Styles and Classes Start ======= */
+body {
+  color: #071033;
+  font-family: Poppins;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.bg-test {
+  background-color: red;
+}
+.bg-test-1 {
+  background-color: rgb(128, 101, 101);
+}
+.bg-test-2 {
+  background-color: rgb(31, 185, 41);
+}
+.p-2 {
+  padding: 2px;
+}
+.p-4 {
+  padding: 4px;
+}
+.m-2 {
+  margin: 2px;
+}
+.m-4 {
+  margin: 4px;
+}
+.text-primary {
+  font-weight: 600;
+  color: #071033;
+}
+.text-primary-400 {
+  font-weight: 400;
+  color: #071033;
+}
+.thankyou {
+  margin-top: 20px;
+}
+.line {
+  margin-top: 120px;
+  color: #071033;
+  border-top: 1px solid #071033;
+}
+.button-primary {
+  padding: 12px 20px;
+  background-color: #f2e9d0;
+  text-decoration: none;
+  color: #071033;
+}
+.decoration-none {
+  text-decoration: none;
+}
+.text-secondary {
+  font-weight: 400;
+  color: #9fa7ad;
+}
+
+.button-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+.main {
+  width: 50%;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-container {
+  padding: 3px;
+  margin-top: 25px;
+  display: flex;
+}
+.footer-container p {
+  width: 50%;
+  padding: 4px;
+}
+
+.footer-container .email-us-link {
+  text-align: end;
+}
+
+/*======= MEDIA QUERIES  ===== */
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+  }
+  .main {
+    margin: 0;
+    width: 90%;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-container p {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-container .email-us-link {
+    text-align: start;
+  }
+}
+/*==== General Styles and Classes Start ==== */
+
+/*==== Specific Styles  === */
+
+/*==== contact us email styles start ==== */
+.message-container {
+  background-color: #f8f8f8;
+  padding: 16px;
+  border-radius: 2px;
+}
+.contact-details {
+  margin-top: 15px;
+}
+/*==== contact us email styles end ====*/
